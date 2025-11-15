@@ -3,8 +3,16 @@ module.exports = function (api) {
     return {
       presets: [
         ["babel-preset-expo", { jsxImportSource: "nativewind" }],
+        "nativewind/babel",
       ],
-      plugins: ["nativewind/babel"],
+      plugins: [
+        ["module:react-native-dotenv", {
+          "moduleName": "@env",
+          "path": ".env",
+          "safe": false,
+          "allowUndefined": true
+        }]
+      ]
     };
 };
   

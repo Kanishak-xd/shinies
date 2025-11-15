@@ -1,19 +1,16 @@
-import { Link } from "expo-router";
-import { Text, TouchableOpacity, View } from "react-native";
+import { ScrollView, Text, View } from "react-native";
+import MetalTile from "./components/MetalTile";
 
 export default function Home() {
   return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Home Screen</Text>
-
-      <Link href="/details/gold" asChild>
-        <TouchableOpacity>
-          <Text style={{ marginTop: 20 }}>Go to Gold Details</Text>
-        </TouchableOpacity>
-      </Link>
-      <View className="p-10 bg-red-400">
-        <Text className="text-white text-lg">NativeWind works</Text>
-      </View>  
-    </View>
+    <ScrollView className="flex-1 bg-white dark:bg-black">
+      <View className="flex-1 bg-white dark:bg-black px-4 pt-10">
+        <Text className="text-2xl text-black dark:text-white font-bold my-6">Live Metal Prices</Text>
+        <MetalTile metal="gold" />
+        <MetalTile metal="silver" />
+        <MetalTile metal="platinum" />
+        <MetalTile metal="palladium" />
+      </View>
+    </ScrollView>
   );
 }

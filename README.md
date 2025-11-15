@@ -66,6 +66,8 @@ global.css at root:
   }
 }
 ```
+npm install react-native-dotenv
+
 
 ## Get started
 
