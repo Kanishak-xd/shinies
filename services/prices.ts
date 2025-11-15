@@ -54,3 +54,4 @@ export async function fetchMetalDetails(metal: string) {
         throw err;
     }
 }
+

@@ -1,0 +1,46 @@
+metals-demo/
+├── app/
+│   ├── _layout.tsx
+│   ├── index.tsx
+│   ├── components/
+│   │   └── MetalTile.tsx
+│   ├── details/
+│   │   └── [metal].tsx
+│   ├── hooks/
+│   ├── screens/
+│   └── services/
+├── assets/
+│   └── images/
+│       ├── android-icon-background.png
+│       ├── android-icon-foreground.png
+│       ├── android-icon-monochrome.png
+│       ├── favicon.png
+│       ├── gold.jpg
+│       ├── icon.png
+│       ├── palladium.jpg
+│       ├── partial-react-logo.png
+│       ├── platinum.png
+│       ├── react-logo.png
+│       ├── react-logo@2x.png
+│       ├── react-logo@3x.png
+│       ├── silver.jpg
+│       └── splash-icon.png
+├── scripts/
+│   └── reset-project.js
+├── services/
+│   └── prices.ts
+├── .gitignore
+├── app.json
+├── babel.config.js
+├── env.d.ts
+├── eslint.config.js
+├── expo-env.d.ts
+├── global.css
+├── metro.config.js
+├── nativewind-env.d.ts
+├── package.json
+├── package-lock.json
+├── README.md
+├── tailwind.config.js
+└── tsconfig.json
+

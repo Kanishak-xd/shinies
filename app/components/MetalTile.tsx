@@ -1,7 +1,7 @@
 import { useRouter } from "expo-router";
 import { useEffect, useState } from "react";
 import { ActivityIndicator, Image, Text, TouchableOpacity, View } from "react-native";
-import { fetchMetalPrice } from "../services/prices";
+import { fetchMetalPrice } from "../../services/prices";
 
 const metalImages: Record<string, any> = {
   gold: require("../../assets/images/gold.jpg"),
