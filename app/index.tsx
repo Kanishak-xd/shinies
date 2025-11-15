@@ -11,6 +11,9 @@ export default function Home() {
           <Text style={{ marginTop: 20 }}>Go to Gold Details</Text>
         </TouchableOpacity>
       </Link>
+      <View className="p-10 bg-red-400">
+        <Text className="text-white text-lg">NativeWind works</Text>
+      </View>  
     </View>
   );
 }
